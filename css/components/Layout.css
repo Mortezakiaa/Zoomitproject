@@ -1,0 +1,285 @@
+@media (max-width: 1110px) {
+  .tech-pad {
+    width: 700px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .trending {
+    display: none !important;
+  }
+
+  #nbv {
+    display: none !important;
+  }
+
+  .btn-collapse {
+    display: block !important;
+  }
+
+  .share-icon {
+    display: none !important;
+  }
+
+  .fa-user {
+    display: none !important;
+  }
+
+  .navbar-brand {
+    position: relative !important;
+    right: 10% !important;
+  }
+
+  #input-box {
+    position: relative !important;
+  }
+
+  #input-nav {
+    background-color: transparent !important;
+    margin-right: 0 !important;
+  }
+
+  #ads-left-side {
+    display: none !important;
+  }
+
+  .ads-middle-side {
+    flex: 0 0 75% !important;
+    max-width: 75% !important;
+  }
+
+  .text-fs {
+    display: none !important;
+  }
+  .purchase-guide {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .side-one {
+    width: 100% !important;
+  }
+
+  .purchase-card {
+    width: 48% !important;
+  }
+
+  .purchase-card a img {
+    width: 100% !important;
+  }
+
+  .cards {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  #check-sec {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .check1 {
+    width: 100% !important;
+  }
+
+  .foot-1 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .margin-right {
+    margin-right: 120px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #input-box {
+    z-index: 100 !important;
+    right: 0 !important;
+  }
+
+  .input-nav {
+    width: 900px !important;
+    background-color: #000000 !important;
+    margin-right: 210px !important;
+    position: relative !important;
+  }
+
+  #close-input {
+    position: relative !important;
+    left: 4px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .irancel-ads {
+    display: none !important;
+  }
+  .size-768 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .bg-img2 {
+    width: 100% !important;
+  }
+
+  .bg-img3 {
+    width: 100% !important;
+  }
+
+  .bg-7 {
+    display: none !important;
+  }
+
+  .bg-6 {
+    width: 50% !important;
+    height: 100% !important;
+    margin-bottom: 30px !important;
+  }
+
+  .bg-6::before {
+    content: "تبلیغات";
+    color: #ababab !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 30px !important;
+  }
+
+  .gif-1::before {
+    top: 70px !important;
+  }
+
+  .bg-img6 {
+    height: 350px !important;
+  }
+
+  .bg-p-6 {
+    align-items: center !important;
+    background-color: #ffffff !important;
+  }
+
+  .bb {
+    width: 100% !important;
+    overflow-y: hidden !important;
+    overflow-x: auto !important;
+  }
+
+  .cc {
+    width: 130% !important;
+  }
+
+  .wid {
+    min-width: 300px !important;
+    background-color: #ffffff !important;
+    padding-bottom: 10px !important;
+  }
+
+  .wid img {
+    width: 100% !important;
+  }
+
+  .wid a {
+    font-size: 1.2rem !important;
+    padding-left: 5px !important;
+    padding-right: 10px !important;
+  }
+
+  #ads-right-side {
+    display: none !important;
+  }
+
+  .ads-middle-side {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  #side-one {
+    display: none !important;
+  }
+
+  .purchase-guide .cards {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+
+  .cards .purchase-card {
+    width: 100% !important;
+    flex-direction: row !important;
+    border-bottom: 1px solid #666 !important;
+    padding-top: 20px !important;
+  }
+
+  .purchase-card div a:nth-child(1) {
+    display: none !important;
+  }
+
+  .purchase-card div a:nth-child(2) {
+    font-size: 1.4rem !important;
+  }
+  .hide-768 {
+    display: none !important;
+  }
+
+  #check-hide {
+    display: flex !important;
+    background-color: #ffffff !important;
+  }
+
+  .d-768 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .img-768 {
+    width: 350px !important;
+  }
+
+  .dispaly-768 {
+    display: flex !important;
+    flex-direction: row !important;
+    background-color: #ffffff !important;
+  }
+
+  .bg-768 {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #666 !important;
+  }
+
+  .img-check {
+    height: auto !important;
+  }
+
+  .text-st {
+    font-size: 1.2rem !important;
+    padding-top: 15px !important;
+    padding-right: 15px !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
+  }
+
+  .img-mid-768 {
+    width: 300px !important;
+  }
+
+  .link-mid {
+    display: none !important;
+  }
+
+  .order-md {
+    order: 2 !important;
+  }
+
+  .ads-md {
+    display: flex !important;
+  }
+
+  .column-768 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .border-768 {
+    border-bottom: 1px solid #999 !important;
+  }
+}

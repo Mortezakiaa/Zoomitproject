@@ -1,0 +1,228 @@
+.gif a img {
+  z-index: 9 !important;
+  width: 992px !important;
+  border-top: 1px solid #ababab !important;
+}
+
+.gif-1::before {
+  z-index: 100 !important;
+  content: "";
+  position: absolute !important;
+  top: 23px !important;
+  left: 13px !important;
+  display: block !important;
+  height: 15px !important;
+  width: 20px !important;
+  border-radius: 3px !important;
+  background-image: url(../../images/AD.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 60% !important;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%) !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.min {
+  min-width: 992px !important;
+}
+.color-f a {
+  color: #ffffff !important;
+}
+
+.w-h {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #dc1225 !important;
+}
+.tr {
+  transition: all 1s ease-in-out !important;
+}
+
+.btn-size-lg {
+  background-color: #ffffff !important;
+  color: #dc1225 !important;
+}
+
+.btn-size-lg:hover {
+  background-color: #ffffff !important;
+}
+
+.social {
+  background-color: #4c4c4c !important;
+}
+
+.social-header a {
+  color: #ababab !important;
+}
+
+.social-header a:hover {
+  color: #dc1225 !important;
+}
+
+.social-links {
+  border-top: 1px solid #ababab;
+}
+
+.social-links a {
+  color: #ababab !important;
+  font-size: 30px !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.social-links a:nth-child(4) {
+  border: none !important;
+}
+
+.divider {
+  width: 1px !important;
+  height: 100% !important;
+  background-color: #ababab !important;
+}
+
+.fa-caret-left {
+  transition: all 0.8s ease-in-out !important;
+}
+
+.rotate-icon {
+  transform: rotate(-90deg) !important;
+}
+
+.bg-link {
+  background-color: #dc1225 !important;
+  color: #ffffff !important;
+}
+
+.bg-ads {
+  background-color: #f0f0f0 !important;
+}
+
+.bg-img{
+  width: 100% !important;
+  height: 305px !important;
+  background:
+  linear-gradient(
+    rgba(0,0,0,0) ,
+    rgba(0,0,0,.1),
+    rgba(0,0,0,.5),rgba(0,0,0,.75))
+    , url(../../images/apple-far-out-iphone14-event.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 1 !important;
+}
+
+.bg-img2{
+  width: 50% !important;
+  height: 205px !important;
+  background:
+  linear-gradient(
+    rgba(0,0,0,0) ,
+    rgba(0,0,0,.1),
+    rgba(0,0,0,.5),rgba(0,0,0,.75))
+    , url(../../images/iphone-14-plus-in-hand.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 1 !important;
+}
+
+.bg-img3{
+  width: 50% !important;
+  height: 205px !important;
+  background:
+  linear-gradient(
+    rgba(0,0,0,0) ,
+    rgba(0,0,0,.1),
+    rgba(0,0,0,.5),rgba(0,0,0,.75))
+    , url(../../images/o7pttlkgq-coffpy222-2.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 1 !important;
+}
+
+.bg-img4{
+  width: 100% !important;
+  height: 205px !important;
+  background:
+  linear-gradient(
+    rgba(0,0,0,0) ,
+    rgba(0,0,0,.1),
+    rgba(0,0,0,.5),rgba(0,0,0,.75))
+    , url(../../images/microsoftteams-image-\(4\).jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 1 !important;
+}
+
+.bg-img5{
+  width: 100% !important;
+  height: 305px!important;
+  background:
+  linear-gradient(
+    rgba(0,0,0,0) ,
+    rgba(0,0,0,.1),
+    rgba(0,0,0,.5),rgba(0,0,0,.75))
+    , url(../../images/macbook-air-m2-side-view-thickness.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 1 !important;
+}
+
+.bg-img6{
+  width: 100% !important;
+  height: 250px !important;
+  background-image: url(../../images/banner-300x250matris.gif);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 1 !important;
+}
+
+.bg-img7{
+  width: 100% !important;
+  height: 250px !important;
+  background-image: url(../../images/zoomit-300x250.gif);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 1 !important;
+}
+
+.bg-img8{
+  width: 100% !important;
+  height: 100px !important;
+  background-image: url(../../images/irancell-banner-csr-1300x100.gif);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 1 !important;
+}
+
+.gap-1px{
+  gap: 1px !important;
+}
+
+.gap-2px{
+  gap: 10px !important;
+}
+
+.h2-img{
+  bottom: 20px !important;
+  font-size: 1rem !important;
+  color: #ffffff !important;
+}
+
+.h2-img-1{
+  bottom: 30px !important;
+  font-size: 1.4rem !important;
+  color: #ffffff !important;
+}
+
+.wid{
+  width: 270px !important;
+}
+

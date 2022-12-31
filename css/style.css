@@ -1,0 +1,27 @@
+@import 'components/Header.css';
+@import 'components/Layout.css';
+@import 'components/main.css';
+@import 'components/footer.css';
+
+body{
+  font-family: Tahoma !important;
+  overflow-x: hidden !important;
+  direction: rtl !important;
+}
+
+* {
+  margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,250 @@
+.color-33 {
+  color: #333333 !important;
+  font-size: 1.6rem !important;
+}
+
+.color-red {
+  font-size: 0.9rem !important;
+  transition: all 0.3s ease !important;
+  color: #333333 !important;
+}
+
+.color-red:hover {
+  color: #dc1225 !important;
+}
+
+.visited-head {
+  background-color: #f5f5f5 !important;
+}
+
+.visited-card {
+  background-color: #ffffff !important;
+}
+
+.educated-card {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #f5f5f5 !important;
+  padding: 15px !important;
+}
+
+.fs-edu {
+  font-size: 13px !important;
+}
+
+.discuss-card {
+  background-color: #ffffff !important;
+  padding: 15px !important;
+  border-bottom: 1px solid #f5f5f5 !important;
+}
+
+.chat-buble {
+  height: 25px !important;
+  padding: 0 6px !important;
+  background-color: #333 !important;
+  transition: 0.3s !important;
+  position: relative !important;
+}
+
+.chat-buble::after {
+  border-left: 6px solid transparent !important;
+  border-top: 4px solid #292929 !important;
+  bottom: -3px !important;
+  content: "" !important;
+  position: absolute !important;
+  right: 4px !important;
+}
+
+.chat-buble:hover {
+  background-color: #666 !important;
+}
+
+.news {
+  width: 100% !important;
+  background-color: #ffffff !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #f5f5f5 !important;
+}
+
+.fs-bg {
+  font-size: 12px !important;
+}
+
+.text-fs {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.img-tr {
+  transition: 0.2s !important;
+  filter: brightness(90%) !important;
+}
+
+.img-tr:hover {
+  filter: brightness(100%) !important;
+}
+
+.link-tr {
+  color: #222 !important;
+  transition: 0.4s !important;
+}
+
+.link-tr:hover {
+  color: #555 !important;
+}
+
+.img-size {
+  width: 170px !important;
+}
+
+.btn-slide {
+  background-color: #dc1225 !important;
+  width: 25px !important;
+  height: 25px !important;
+  text-align: center !important;
+  border-radius: 3px !important;
+}
+
+.side-one {
+  background-color: #e51a2d !important;
+}
+
+.text-a {
+  color: #ffffff !important;
+  transition: 0.5s !important;
+}
+
+.text-a:hover {
+  opacity: 0.8 !important;
+}
+
+.bg-img9 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(../../images/xiaomi-12-display-front-1.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 8 !important;
+  height: 470px !important;
+}
+
+.bg-img10 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(../../images/hp-omen-16-display-600x450.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 8 !important;
+  height: 240px !important;
+}
+
+.bg-img11 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(../../images/hp-omen-16-intel-laptop-600x450.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 8 !important;
+  height: 240px !important;
+}
+.purchase-card {
+  background-color: #ffffff !important;
+  width: 31% !important;
+  box-sizing: border-box !important;
+}
+.ads-right {
+  position: sticky !important;
+  top: -2170px !important;
+}
+
+.ads-left {
+  position: sticky !important;
+  top: -2170px !important;
+}
+
+.ads-top {
+  position: sticky !important;
+  top: 85px !important;
+}
+
+.ads-middle-side {
+  position: relative !important;
+  overflow-y: auto !important;
+}
+.ads-md {
+  background-color: #f0f0f0 !important;
+}
+
+.ads-md-bg {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.ads-md::before {
+  content: "تبلیغات";
+  color: #0d0d0d !important;
+  display: flex !important;
+  justify-content: center !important;
+  position: relative !important;
+  bottom: 25px !important;
+  right: 23% !important;
+}
+
+.gif-md::before {
+  z-index: 100 !important;
+  content: "";
+  position: absolute !important;
+  top: 35px !important;
+  left: 30% !important;
+  display: block !important;
+  height: 15px !important;
+  width: 20px !important;
+  border-radius: 3px !important;
+  background-image: url(/images/AD.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 60% !important;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%) !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+.img-check {
+  width: 100% !important;
+  height: 130px !important;
+}
+
+.img-check-text1 {
+  bottom: 30px !important;
+  right: 20px !important;
+  width: 80% !important;
+  font-size: 2rem !important;
+}
+
+.img-check-text2 {
+  bottom: 20px !important;
+  right: 10px !important;
+  font-weight: 400 !important;
+}
+
+#check-hide {
+  display: none !important;
+}
+
+.hh {
+  height: 285px !important;
+}
