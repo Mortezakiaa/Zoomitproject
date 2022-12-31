@@ -17,19 +17,3 @@
 .footer-2 {
   background-color: #0d0d0d !important;
 } 
-
-.btn-top {
-  padding: 16px 22px 16px 22px !important;
-  background-color: #ac1a19 !important;
-}
-
-.z-ind {
-  position: fixed !important;
-  bottom: 100px !important;
-  right: 20px !important;
-  z-index: 10 !important;
-}
-
-.btn-top i {
-  font-size: 30px !important;
-}

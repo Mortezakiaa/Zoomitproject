@@ -365,10 +365,6 @@ document.getElementById("over1").addEventListener("click" , ()=>{
     document.body.style.overflow = "visible";
 })
 
-document.getElementById("btn-top").addEventListener('click' , ()=>{
-    document.body.scrollIntoView({behavior : 'smooth' , block : 'start'});
-})
-
 document.addEventListener('scroll', function() {
     let btn = document.getElementById("btn-top");
     if(window.scrollY >= "160"){
